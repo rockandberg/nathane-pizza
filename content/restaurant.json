@@ -1,0 +1,47 @@
+{
+  "siteUrl": "https://rockandberg.github.io/nathane-pizza",
+  "name": "Nathane Pizza",
+  "tagline": "Pizzeria à Propriano",
+  "seo": {
+    "title": "Nathane Pizza | Pizzeria à Propriano",
+    "description": "Découvrez Nathane Pizza à Propriano : carte, prix, horaires, avis et informations pratiques. Retrouvez-nous au 31 montée de la Paratella.",
+    "keywords": "Nathane Pizza, Nathane Pizza Propriano, pizzeria Propriano, pizza Propriano, pizzeria Corse-du-Sud"
+  },
+  "address": {
+    "place": "Les Myrtes",
+    "street": "31 montée de la Paratella",
+    "postalCode": "20110",
+    "city": "Propriano",
+    "region": "Corse-du-Sud",
+    "country": "FR"
+  },
+  "phone": {
+    "display": "07 84 75 39 91",
+    "tel": "+33784753991"
+  },
+  "google": {
+    "rating": "5,0",
+    "ratingValue": 5,
+    "reviewCount": 22
+  },
+  "hours": [
+    {
+      "day": "Vendredi",
+      "schema": "Friday",
+      "open": "18:00",
+      "close": "22:00"
+    },
+    {
+      "day": "Samedi",
+      "schema": "Saturday",
+      "open": "18:00",
+      "close": "22:00"
+    },
+    {
+      "day": "Dimanche",
+      "schema": "Sunday",
+      "open": "18:00",
+      "close": "22:00"
+    }
+  ]
+}

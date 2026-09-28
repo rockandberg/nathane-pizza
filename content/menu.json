@@ -1,0 +1,15 @@
+[
+  { "name": "Marguerite", "price": 8, "ingredients": "Tomate, fromage, mozzarella, olives", "photo": "02_menu/01_marguerite_nathane_pizza.png" },
+  { "name": "Jambon Fromage", "price": 9, "ingredients": "Tomate, fromage, mozzarella, jambon, olives", "photo": "02_menu/02_jambon_fromage_nathane_pizza.png" },
+  { "name": "Reine", "price": 10, "ingredients": "Tomate, fromage, mozzarella, jambon, champignons, olives", "photo": "02_menu/03_reine_nathane_pizza.png" },
+  { "name": "Napolitaine", "price": 10, "ingredients": "Tomate, anchois, câpres, huile d’olive, olives", "photo": "02_menu/04_napolitaine_nathane_pizza.png" },
+  { "name": "Végétarienne", "price": 11, "ingredients": "Tomate, fromage, mozzarella, aubergines, courgettes, poivrons, champignons, olives", "photo": "02_menu/05_vegetarienne_nathane_pizza.png" },
+  { "name": "Vésuve", "price": 11, "ingredients": "Tomate, fromage, mozzarella, jambon, champignon, œuf, olives", "photo": "02_menu/06_vesuve_nathane_pizza.png" },
+  { "name": "Chèvre Miel", "price": 11, "ingredients": "Tomate, fromage, mozzarella, chèvre, miel, olives", "photo": "02_menu/07_chevre_miel_nathane_pizza.png" },
+  { "name": "Breizh", "price": 11, "ingredients": "Tomate, fromage, mozzarella, thon, oignons, olives", "photo": "02_menu/08_breizh_nathane_pizza.png" },
+  { "name": "4 Fromages", "price": 12, "ingredients": "Tomate, gruyère, mozzarella, chèvre, roquefort", "photo": "02_menu/09_4_fromage_nathane_pizza.png" },
+  { "name": "Chorizo", "price": 12, "ingredients": "Tomate, fromage, mozzarella, chorizo, poivrons, olives", "photo": "02_menu/10_chorizo_nathane_pizza.png" },
+  { "name": "Calzone", "price": 12, "ingredients": "Tomate, fromage, mozzarella, jambon, champignons, crème fraîche, œuf, muscade", "photo": "02_menu/11_calzone_nathane_pizza.png" },
+  { "name": "Chef", "price": 12, "ingredients": "Tomate, fromage, mozzarella, jambon corse, parmesan, roquette, balsamique, olives", "photo": "02_menu/12_chef_nathane_pizza.png" },
+  { "name": "Kebab", "price": 12, "ingredients": "Crème fraîche, fromage, mozzarella, viande kebab, sauce kebab", "photo": "02_menu/13_kebab_nathane_pizza.png" }
+]
