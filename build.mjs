@@ -463,6 +463,9 @@ await writeFile(
   JSON.stringify({ name: site.name, short_name: site.name, start_url: "./", display: "browser", background_color: "#F5F0E7", theme_color: "#191817", icons: [{ src: "icon-192.png", sizes: "192x192", type: "image/png" }, { src: "icon-512.png", sizes: "512x512", type: "image/png" }] }, null, 2)
 );
 await writeFile(path.join(OUT, ".nojekyll"), "");
+// Domaine personnalisé : GitHub Pages lit ce fichier dans l'artefact publié.
+// Il est dérivé de SITE_URL pour qu'il n'y ait jamais deux sources de vérité.
+await writeFile(path.join(OUT, "CNAME"), new URL(SITE_URL).hostname + "\n");
 await writeFile(
   path.join(OUT, "404.html"),
   `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Page introuvable | ${esc(site.name)}</title><meta name="robots" content="noindex"><style>body{margin:0;min-height:100vh;display:grid;place-content:center;gap:16px;padding:24px;text-align:center;background:#f5f0e7;color:#191817;font:18px/1.5 system-ui,sans-serif}h1{font-size:2.4rem;margin:0;letter-spacing:-.03em}a{display:inline-block;margin:6px;padding:14px 22px;border-radius:999px;background:#c94a32;color:#fff;text-decoration:none;font-weight:600}a+a{background:#191817}</style></head><body><h1>Page introuvable</h1><p>Cette page n’existe pas, mais nos pizzas, si.</p><p><a href="${SITE_URL}/#carte">Voir la carte</a><a href="${links.tel}">Appeler ${esc(site.phone.display)}</a></p></body></html>\n`
